@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+requests
+python-dateutil
+dateparser
+pydantic
+pytest
+pytest-mock
+httpx
