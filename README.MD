@@ -46,7 +46,7 @@ uvicorn bot.app:app --host 0.0.0.0 --port 8000 --reload
 ### 4. Run Tests
 
 ```bash
-pytest -v
+python -m pytest -q
 ```
 
 ## API Usage
@@ -146,4 +146,5 @@ pytest tests/test_lead_create.py -v
 4. **Rate Limiting**: Implement Redis-based rate limiting
 5. **Database**: Replace in-memory storage with PostgreSQL
 6. **Authentication**: Add API key authentication
+
 7. **Deployment**: Docker containerization and Kubernetes manifests
