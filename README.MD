@@ -17,7 +17,7 @@ A conversational AI bot for lead management that processes natural language tran
 
 ```bash
 # Clone repository
-git clone <your-repo-url>
+git clone https://github.com/ananyagupta2305/capserv.git
 cd Capserv
 
 # Create virtual environment
@@ -148,3 +148,4 @@ pytest tests/test_lead_create.py -v
 6. **Authentication**: Add API key authentication
 
 7. **Deployment**: Docker containerization and Kubernetes manifests
+
